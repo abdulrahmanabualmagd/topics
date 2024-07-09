@@ -1,0 +1,20 @@
+01. onabort             : runs if an image or video fails to load.
+02. onblur              : runs when an element loses focus.
+03. onchange            : runs when the value of an input element changes.
+04. onclick             : runs when an element is clicked.
+05. ondblclick          : runs when an element is double-clicked.
+06. onerror             : runs when an element encounters an error.
+07. onfocus             : runs when an element receives focus.
+08. onkeydown           : runs when a key is pressed down.
+09. onkeypress          : runs when a key is pressed and released.
+10. onkeyup             : runs when a key is released.
+11. onload              : runs when an element is finished loading.
+12. onmousedown         : runs when the mouse button is pressed down on an element.
+13. onmousemove         : runs when the mouse pointer moves over an element.
+14. onmouseout          : runs when the mouse pointer moves out of an element.
+15. onmouseover         : runs when the mouse pointer moves over an element.
+16. onmouseup           : runs when the mouse button is released over an element.
+17. onresize            : runs when the browser window is resized.
+18. onscroll            : runs when an element's scrollbar is being scrolled.
+19. onselect            : runs when the text selection is changed in an element.
+20. onsubmit            : runs when a form is submitted.

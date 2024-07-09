@@ -1,0 +1,14 @@
+Cascade:
+Cascade refers to how CSS resolves conflicting styles from different sources. 
+It follows the principles of specificity, origin, and order.
+
+Specificity:
+Specificity is a measure of how specific a selector is in targeting elements. 
+It determines which styles take precedence in case of conflicts. 
+Specificity is calculated based on selectors
+hierarchy: inline styles > IDs > classes, attributes, and pseudo-classes > elements.
+
+
+
+
+

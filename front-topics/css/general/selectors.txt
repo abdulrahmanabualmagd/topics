@@ -1,0 +1,10 @@
+01. *                           :Universal Selector: Selects all elements on the page.
+02. element                     :Type Selector: Selects all elements of a specific type.
+03. .classname                  :Class Selector: Selects elements with a specific class attribute.
+04. #idname                     :ID Selector: Selects a single element with a specific id attribute.
+05. [attribute=value]           :Attribute Selector: Selects elements with a specific attribute value.
+06. ancestor descendant         :Descendant Selector: Selects elements that are descendants of another element.
+07. parent > child              :Child Selector: Selects elements that are direct children of another element.
+08. element + element           :Adjacent Sibling Selector: Selects an element that is immediately preceded by a sibling element.
+09. element ~ element           :General Sibling Selector: Selects sibling elements that follow an element.
+10. :pseudo-class               :Pseudo-classes: Selects elements based on their state or position in the document.

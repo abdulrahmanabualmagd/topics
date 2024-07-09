@@ -1,0 +1,10 @@
+Form Tags: Tags used to create and handle forms for user input, including input controls, text areas, buttons, and elements for displaying output.
+
+    1. <form>      : Defines an HTML form for user input.
+    2. <input>     : Defines an input control.
+    3. <textarea>  : Defines a multiline input control (text area).
+    4. <button>    : Defines a clickable button.
+    5. <datalist>  : Specifies a list of pre-defined options for <input> elements.
+    6. <output>    : Represents the result of a calculation.
+    7. <progress>  : Represents the progress of a task.
+    8. <meter>     : Represents a scalar measurement within a known range.

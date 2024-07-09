@@ -1,0 +1,49 @@
+.profileRateCard {
+    --width: 10em;
+    width: var(--width);
+    height: calc(var(--width) * 1.5);
+
+    font-size: calc(var(--width) / 5);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: .8em;
+}
+
+.profileRateCard .image{
+    text-align: center;
+    width: 7em;
+}
+
+.profileRateCard img {
+    --width:90%;
+    max-width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 2px black;
+}
+
+.profileRateCard .stars {
+    font-size: 1.2em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.3em;
+}
+
+.profileRateCard .name {
+    color: #57007B;
+    font-weight: bold;
+    font-size: 1.4em;
+    max-width: 90%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+.profileRateCard .title {
+    font-size: 1em;
+    max-width: 100%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}

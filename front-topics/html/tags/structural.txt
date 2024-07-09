@@ -1,0 +1,5 @@
+Structural Tags: Tags used to define the structure and layout of the content on a web page, such as divisions, line breaks, and thematic breaks.
+    
+    1. <div>        : Defines a division or section in an HTML document.
+    2. <br>         : Inserts a single line break.
+    3. <hr>         : Defines a thematic break between paragraphs.

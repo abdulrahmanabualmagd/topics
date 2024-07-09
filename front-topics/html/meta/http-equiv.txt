@@ -1,0 +1,36 @@
+   << HTTP-EQUIV >> 
+
+Some of the http-equiv values are no longer commonly used on modern websites, 
+as they are better controlled using other methods such as HTTP headers or server-side scripts.
+
+1. Content-Type             : Specifies the character encoding of the HTML document.
+2. Refresh                  : Controls automatic page refreshes after a specified time interval.
+3. Cache-Control            : Specifies caching behavior for the webpage.
+4. Pragma                   : Specifies caching behavior for older browsers that do not support 'cache-control'.
+5. Expires                  : Sets an expiration date for the webpage's content.
+6. X-UA-Compatible          : Specifies the compatibility mode for the browser.
+
+
+
+
+
+    <!-- indicates that the document is an html document encoded using UTF-8, It's not recommended though [meta charset="UTF-8" preferred, supported on modern browsers] -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!-- Indicates that webpage is an html document encoded using UTF-8 and it's preferred to use rather than [content-type in http-equiv] because it's supported in modern browser versions. -->
+        <meta charset="UTF-8">
+
+    <!-- Indicates that the webpage will refresh after preset value in seconds and will direct you to the webpage in mentioned in URL section -->
+        <meta http-equiv="refresh" content="100000 URL=">
+
+    <!-- Will instruct the browser not to cache the webpage -->
+        <meta http-equiv="cache-control" content="no-cache">
+
+    <!-- The same as cache-control unless it used for older browser that do not support 'cache-control -->
+        <meta http-equiv="pragma" content="no-cache">
+
+    <!-- Indicates that the webpage should expire on October 21, 2023 at 7:28AM GMT -->
+        <meta http-equiv="expires" content="Wed, 21 oct 2023 07:28:00 AM GMT">
+
+    <!-- This value used to specify compatibility mode for the browser and in the written code below it indicate that the webpage should be rendered using the latest version of Internet Explorer (edge) -->
+        <meta http-equiv="x-ua-compatible" content="IE-edge">

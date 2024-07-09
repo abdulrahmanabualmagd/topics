@@ -1,0 +1,4 @@
+Interactive Tags: Tags introduced in HTML5 to create interactive elements, such as collapsible details and summary sections.
+
+    1. <details>     : Represents additional details that the user can view or hide.
+    2. <summary>     : Represents a summary or caption for the <details> element.   

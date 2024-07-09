@@ -1,0 +1,4 @@
+Metadata Tags: Tags used to provide metadata about the HTML document, such as character encoding and viewport settings.
+
+
+    1. <meta>

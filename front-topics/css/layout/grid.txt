@@ -1,0 +1,21 @@
+Grid Layout:
+
+    - CSS Grid Layout is a two-dimensional layout system that allows you to create grid-based layouts with rows and columns.
+    - It provides properties for defining the grid structure, placing items within the grid, and controlling the sizing of grid tracks (rows and columns).
+    - Grid Layout is highly versatile and can accommodate complex layouts with ease.
+    - Key properties include grid-template-columns, grid-template-rows, grid-gap, grid-column, and grid-row.
+
+
+Code:
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+        grid-gap: 10px;
+    }
+
+    .grid-item {
+        background-color: #ccc;
+        padding: 20px;
+        text-align: center;
+    }

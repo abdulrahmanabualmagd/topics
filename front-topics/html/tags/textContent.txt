@@ -1,0 +1,14 @@
+Text Content Tags: Tags used to define and structure text content on a web page.
+
+    01. <p>             : Defines a paragraph.
+    02. <h1> to <h6>    : Defines headings of different levels.
+    03. <a>             : Defines a hyperlink.
+    04. <span>          : Defines a section of content within another element.
+    05. <mark>          : Highlights text.
+    06. <time>          : Represents a specific period in time or a date.
+    07. <abbr>          : Represents an abbreviation or acronym.
+    08. <cite>          : Represents the title of a work.
+    09. <code>          : Represents a fragment of computer code.
+    10. <kbd>           : Represents user input, like keyboard input.
+    11. <samp>          : Represents sample output from a program.
+    12. <var>           : Represents a variable in programming or mathematics.

@@ -1,0 +1,29 @@
+Positioning:
+
+    - The position property allows you to control the positioning of an element.
+    - Values include:
+        - static: Default value; elements are positioned according to the normal document flow.
+        - relative: Elements are positioned relative to their normal position in the document flow.
+        - absolute: Elements are removed from the normal document flow and positioned relative to the nearest positioned ancestor.
+        - fixed: Elements are positioned relative to the viewport, meaning they remain in the same position even when the page is scrolled.
+    - Using positioning, you can create complex layouts, overlay elements, and implement scrolling effects.
+
+Code: 
+
+    .relative {
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+
+    .absolute {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .fixed {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }

@@ -1,0 +1,5 @@
+1. Extra Small Devices (phones)          :Less than 576px wide.
+2. Small Devices (tablets)               :576px to 767px wide.
+3. Medium Devices (laptops)              :768px to 991px wide.
+4. Large Devices (desktops)              :992px to 1199px wide.
+5. Extra Large Devices (large desktops)  :1200px and above.

@@ -1,0 +1,33 @@
+@media [ not | only ] [ mediatype ] and ([ mediaFeature ]) and ([ mediaFeature ]) {
+  [CSS-Code];
+}
+
+
+
+
+
+1. Mobile First Approach:
+   @media only screen and (max-width: 767px) {
+     /* Styles for mobile devices */
+   }
+
+2. Tablet Portrait:
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+     /* Styles for tablets in portrait orientation */
+   }
+
+3. Tablet Landscape:
+   @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     /* Styles for tablets in landscape orientation */
+   }
+
+4. Desktop:
+   @media only screen and (min-width: 1200px) {
+     /* Styles for desktops */
+   }
+
+5. High Resolution (Retina) Displays:
+   @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+          only screen and (min-resolution: 192dpi) {
+     /* Styles for high-resolution displays */
+   }

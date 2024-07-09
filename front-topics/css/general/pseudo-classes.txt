@@ -1,0 +1,10 @@
+01. :hover                  :Applies styles when the mouse pointer is over the element.
+02. :active                 :Applies styles when the element is being activated (e.g., clicked).
+03. :focus                  :Applies styles when the element is focused (e.g., via keyboard navigation or clicking).
+04. :visited                :Applies styles to visited links.
+05. :first-child            :Applies styles to an element that is the first child of its parent.
+06. :last-child             :Applies styles to an element that is the last child of its parent.
+07. :nth-child(n)           :Applies styles to elements based on their position in the parent.
+08. :nth-of-type(n)         :Applies styles to elements of a specific type based on their position in the parent.
+09. :not(selector)          :Applies styles to elements that do not match a specific selector.
+10. :checked                :Applies styles to checked input elements (checkboxes or radio buttons).

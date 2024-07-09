@@ -1,0 +1,13 @@
+01. width (min|max)         :Specifies the width of the viewport.
+02. height (min|max)        `:Specifies the height of the viewport.
+03. device-width            :Specifies the width of the device screen.
+04. device-height           :Specifies the height of the device screen.
+05. aspect-ratio            :Specifies the ratio of the width to the height of the viewport.
+06. device-aspect-ratio     :Specifies the ratio of the width to the height of the device screen.
+07. color                   :Specifies the number of bits per color component for the output device.
+08. color-index             :Specifies the number of colors the device can display.
+09. monochrome              :Specifies the number of bits per pixel in a monochrome frame buffer.
+10. resolution              :Specifies the resolution of the output device, typically in dots per inch (dpi) or dots per centimeter (dpcm).
+11. orientation             :Specifies the orientation of the viewport (landscape or portrait).
+12. scan                    :Specifies the scanning process of a television.
+13. grid                    :Specifies whether the output device is grid-based.

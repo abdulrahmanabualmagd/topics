@@ -1,0 +1,16 @@
+01. data-*          : Custom data attributes where * can be replaced with any descriptive name. These attributes allow you to store extra information that can be accessed by JavaScript or CSS.
+02. target          : Specifies where to open the linked document when the link is clicked. Possible values include "_self", "_blank", "_parent", "_top", or a frame name.
+03. rel             : Specifies the relationship between the current document and the linked document. Common values include "nofollow", "noopener", "noreferrer", etc.
+04. width           : Specifies the width of an element. For example, width of an image.
+05. height          : Specifies the height of an element. For example, height of an image.
+06. download        : Specifies that the target will be downloaded when a user clicks on the hyperlink. The value specifies the name of the file to be downloaded.
+07. type            : Specifies the media type of the linked document, used in `<a>` and `<link>` elements.
+08. name            : Specifies the name of an anchor, form, or any other element where it's applicable.
+09. value           : Specifies the value of an input element.
+10. action          : Specifies the URL where the form data will be sent when the form is submitted.
+11. method          : Specifies the HTTP method to use when sending form data (e.g., "get" or "post").
+12. enctype         : Specifies how form data should be encoded before sending it to the server.
+13. placeholder     : Specifies a short hint that describes the expected value of an input field (HTML5).
+14. autocomplete    : Specifies whether an input field should have autocomplete enabled or disabled (HTML5).
+15. autofocus       : Specifies that an input element should automatically get focus when the page loads (HTML5).
+16. lang            : Specifies the primary language for the content and search engines.

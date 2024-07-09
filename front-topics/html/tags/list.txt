@@ -1,0 +1,5 @@
+List Tags: Tags used to create ordered or unordered lists of items.
+
+    1. <ul>            : Defines an unordered (bulleted) list.
+    3. <ol>            : Defines an ordered (numbered) list.
+    4. <li>            : Defines a list item.

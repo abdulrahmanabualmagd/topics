@@ -1,0 +1,43 @@
+<< NAME >>
+
+It's important for Search Engine Optimization, Social Media Sharing, User Experience, Accessibility, 
+and helps make your webpage more visible in related searches, aiding the Web Crawlers.
+
+1. Author                       : Specifies the name of the author of the webpage.
+2. Description                  : Provides a brief summary of the webpage's content, used by search engines as snippets in search results.
+3. Keywords                     : Provides a comma-separated list of relevant keywords or phrases for SEO.
+4. Robots                       : Controls how search engine crawlers should index the webpage.
+5. Viewport                     : Specifies the viewport size and scale of the webpage for responsive web design.
+6. Apple Mobile Web App Capable : Activates the capability of controlling the name of the saved page's shortcut on Apple's home screen.
+7. Apple Mobile Web App Title   : Specifies the name of the shortcut when adding a webpage as a shortcut to the home screen on Apple phones.
+8. Mobile Web App Capable       : Activates the capability of controlling the name of the saved page's shortcut on Android's home screen.
+9. Application Name             : Specifies the name of the shortcut when adding a webpage as a shortcut on the home screen on Android phones.
+
+
+
+    <!-- This meta tag used to provide a brief summary of the webpage's content, and is used also by search engines as the snippets in search results. -->
+        <meta name="description" content="Here you'll find all your needs on health information">
+
+    <!-- This meta tag used to provide a comma-separated list of keywords or phrases that are relevant to the webpage's content, and it's very important, it helps in SEO. -->
+        <meat name="keywords" content="cooking, recipes, food, ingredients">
+
+    <!-- This meta tag used to provide the name of the author of the webpage. -->
+        <meta name="author" content="John Doe">
+
+    <!-- This meta tag used to control how search engine crawlers should index the webpage, and in this tag we prevent search engine crawlers from indexing certain pages. -->
+        <meta name="robots" content="noindex, nofollow">
+
+    <!-- This meta tag is used to specify the view port size and scale of the webpage which is important in responsive web design. -->
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+
+    <!-- This tag is important to activate the capability of controlling the name of the saved page's shortcut on APPLE's home screen -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- This tag is used to specify the name of shortcut when you add webpage as a shortcut to your home screen on apple phones. [you should activate the capability first.] -->
+        <meta name="apple-mobile-web-app" content="My App">
+
+    <!-- This tag is used to activate the capability of controlling the name of the saved page's shortcut on Android's home screen -->
+        <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- This tag is used to specify the name of the shortcut when you add webpage as a shortcut on your home screen on Android phones. [ you should activate the capability first.] -->
+        <meta name="application-name" content="My App">

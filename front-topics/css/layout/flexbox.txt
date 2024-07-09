@@ -1,0 +1,25 @@
+Flexbox:
+
+    - Flexbox is a one-dimensional layout model designed for laying out items within a container along a single direction (either horizontally or vertically).
+    - It provides properties for distributing space among items, aligning items, and controlling the order of items.
+    - Flexbox is particularly useful for creating dynamic layouts that adapt to different screen sizes and orientations.
+    - Properties like flex-direction, justify-content, align-items, and flex play key roles in flexbox layouts.
+
+
+.container {
+    display: flex;        /* Enables flexbox layout */
+    flex-direction: row;  /* Default: sets the direction of the main axis to be horizontal */
+    flex-wrap: nowrap;    /* Default: items will not wrap */
+    flex-flow: row nowrap; /* Shorthand for flex-direction and flex-wrap */
+    justify-content: flex-start; /* Default: items are packed toward the start of the main axis */
+    align-items: stretch; /* Default: items stretch to fill the container's cross axis */
+    align-content: stretch; /* Default: lines stretch to fill the container's cross axis */
+}
+
+.item {
+    flex-grow: 0;         /* Default: items do not grow */
+    flex-shrink: 1;       /* Default: items can shrink if needed */
+    flex-basis: auto;     /* Default: items size based on their content */
+    flex: 0 1 auto;       /* Shorthand for flex-grow, flex-shrink, and flex-basis */
+    align-self: auto;     /* Default: aligns the item according to the align-items property of the container */
+}

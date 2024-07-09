@@ -1,0 +1,316 @@
+<!-- Declare the HTML Version -->
+<!DOCTYPE html>
+
+<!-- Content Goes Here... -->
+<html lang="en">
+
+
+<!-- Meta-Information about the HTML Document -->
+<head>
+
+    <!-- 
+        << HTTP-EQUIV >> 
+
+        Some of the http-equiv values are no longer commonly used on modern websites, 
+        as they are better controlled using other methods such as HTTP headers or server-side scripts.
+
+        1. Content-Type     : Specifies the character encoding of the HTML document.
+        2. Refresh          : Controls automatic page refreshes after a specified time interval.
+        3. Cache-Control    : Specifies caching behavior for the webpage.
+        4. Pragma           : Specifies caching behavior for older browsers that do not support 'cache-control'.
+        5. Expires          : Sets an expiration date for the webpage's content.
+        6. X-UA-Compatible  : Specifies the compatibility mode for the browser.
+     -->
+
+    <!-- indicates that the document is an html document encoded using UTF-8, It's not recommended though [meta charset="UTF-8" preferred, supported on modern browsers] -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!-- Indicates that webpage is an html document encoded using UTF-8 and it's preferred to use rather than [content-type in http-equiv] because it's supported in modern browser versions. -->
+    <meta charset="UTF-8">
+
+    <!-- Indicates that the webpage will refresh after preset value in seconds and will direct you to the webpage in mentioned in URL section -->
+    <meta http-equiv="refresh" content="100000 URL=">
+
+    <!-- Will instruct the browser not to cache the webpage -->
+    <meta http-equiv="cache-control" content="no-cache">
+
+    <!-- The same as cache-control unless it used for older browser that do not support 'cache-control -->
+    <meta http-equiv="pragma" content="no-cache">
+
+    <!-- Indicates that the webpage should expire on October 21, 2023 at 7:28AM GMT -->
+    <meta http-equiv="expires" content="Wed, 21 oct 2023 07:28:00 AM GMT">
+
+    <!-- This value used to specify compatibility mode for the browser and in the written code below it indicate that the webpage should be rendered using the latest version of Internet Explorer (edge) -->
+    <meta http-equiv="x-ua-compatible" content="IE-edge">
+
+
+    <!--
+            << NAME >>
+
+            It's important for Search Engine Optimization, Social Media Sharing, User Experience, Accessibility, 
+            and helps make your webpage more visible in related searches, aiding the Web Crawlers.
+
+            1. Author                       : Specifies the name of the author of the webpage.
+            2. Description                  : Provides a brief summary of the webpage's content, used by search engines as snippets in search results.
+            3. Keywords                     : Provides a comma-separated list of relevant keywords or phrases for SEO.
+            4. Robots                       : Controls how search engine crawlers should index the webpage.
+            5. Viewport                     : Specifies the viewport size and scale of the webpage for responsive web design.
+            6. Apple Mobile Web App Capable : Activates the capability of controlling the name of the saved page's shortcut on Apple's home screen.
+            7. Apple Mobile Web App Title   : Specifies the name of the shortcut when adding a webpage as a shortcut to the home screen on Apple phones.
+            8. Mobile Web App Capable       : Activates the capability of controlling the name of the saved page's shortcut on Android's home screen.
+            9. Application Name             : Specifies the name of the shortcut when adding a webpage as a shortcut on the home screen on Android phones.
+     -->
+
+    <!-- This meta tag used to provide a brief summary of the webpage's content, and is used also by search engines as the snippets in search results. -->
+    <meta name="description" content="Here you'll find all your needs on health information">
+
+    <!-- This meta tag used to provide a comma-separated list of keywords or phrases that are relevant to the webpage's content, and it's very important, it helps in SEO. -->
+    <meat name="keywords" content="cooking, recipes, food, ingredients">
+
+    <!-- This meta tag used to provide the name of the author of the webpage. -->
+    <meta name="author" content="John Doe">
+
+    <!-- This meta tag used to control how search engine crawlers should index the webpage, and in this tag we prevent search engine crawlers from indexing certain pages. -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- This meta tag is used to specify the view port size and scale of the webpage which is important in responsive web design. -->
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
+
+    <!-- This tag is important to activate the capability of controlling the name of the saved page's shortcut on APPLE's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- This tag is used to specify the name of shortcut when you add webpage as a shortcut to your home screen on apple phones. [you should activate the capability first.] -->
+    <meta name="apple-mobile-web-app" content="My App">
+
+    <!-- This tag is used to activate the capability of controlling the name of the saved page's shortcut on Android's home screen -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- This tag is used to specify the name of the shortcut when you add webpage as a shortcut on your home screen on Android phones. [ you should activate the capability first.] -->
+    <meta name="application-name" content="My App">
+
+    <title>Health Information</title>
+
+    <style>
+        /* Here you can write your CSS code. */
+    </style>
+
+    <script>
+        // Here you can write your Java Script code.Here you can write your Java Script code.
+    </script>
+
+</head>
+
+    <!-- 
+        For semantic elements, all are blocks, except for details, figure (which allows adding margins and other styling), 
+        mark (which highlights text with a colored background), and time (which is displayed inline)..
+    -->
+
+<body>
+
+    <!-- 
+        <p>                 => Tag
+        <p>something</p>    => Element
+        href=""             => Attribute
+     -->
+
+    <!-- 
+        Semantic Elements
+
+        provide more meaning to the structure of your HTML document, making it easier for 
+        search engines, screen readers, and other devices to understand the content and its organization.
+
+        <header>        : Represents introductory content, typically containing navigation links, logos, etc.
+        <nav>           : Defines a section of navigation links.
+        <main>          : Represents the main content of the document.
+        <article>       : Defines an independent, self-contained piece of content, such as a blog post or news article.
+        <section>       : Represents a thematic grouping of content, typically with a heading.
+        <aside>         : Represents content that is tangentially related to the content around it, often displayed as sidebars.
+        <footer>        : Represents a footer for its nearest sectioning content or root element.
+        <figure>        : Represents any content that is referenced from the main content, like images, videos, code snippets, etc.
+        <figcaption>    : Represents a caption or legend for a <figure> element.
+        <details>       : Represents additional information or controls that can be revealed or hidden by the user.
+        <summary>       : Represents a summary, caption, or legend for a <details> element.
+        <time>          : Represents a specific period in time or a range of time.
+     -->
+
+    <div>
+        <marquee behavior="" direction="">Fitness Area</marquee>
+    </div>
+
+    <header>
+
+        <audio autoplay>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your audio file not supported on your own browser!
+        </audio>
+
+        <h1 title="Site Heading">Welcome to our page, we're glad to see you here!</h1>
+
+        <label for="search-input">Search:</label>
+        <input type="search" placeholder="What's in mind!" name="Search">
+        <input type="submit">
+        <p>Search for <em><strong>whatever</em></strong> you want <em><strong>whenever</em></strong> you want.</p>
+    </header>
+
+    <hr />
+
+    <nav>
+        <ul>
+            <li> <a href="https://www.google.com">Google</a> </li>
+            <li> <a href="https://www.facebook.com">Facebook</a> </li>
+            <li> <a href="https://www.youtube.com">YouTube</a> </li>
+        </ul>
+    </nav>
+
+    
+
+    <hr />
+
+    <main>
+
+        <h5>Explore what ever you want</h5>
+
+        <article>
+
+            <p>Sports have many benefits, did you know that!
+            <details>It helps you to keep your heart save, <br />make your body in shape,<br />East to get fit with
+                practicing</details>
+            </p>
+
+            <ol>
+                <p>So we said that sports help your body to:</p>
+                <li>Safe your heart.</li>
+                <li>Make your body in shape</li>
+                <li>Ease of getting <mark><em>FIT</em></mark>
+                <li>the sport is <del>Harmful</del> <strong>Useful</strong>
+            </ol>
+
+        </article>
+
+
+
+        <section>
+
+            <h4>Here are some photos with their captions below:</h4>
+            <figure>
+                <img src="nature.jpg" alt="Pic" />
+                <figcaption>Pic for nature</figcaption>
+            </figure>
+
+            <figure>
+                <img src="sport.jpg" alt="pic" />
+                <figcaption>Pic for Sport</figcaption>
+            </figure>
+
+            <figure>
+                <img src="health.jpg" alt="pic">
+                <figcaption>Picture for Health</figcaption>
+            </figure>
+
+        </section>
+
+        <mark>
+            <blockquote>
+                <em></strong>"To be or not to be, that is the question."</em></strong>
+            </blockquote>
+        </mark>
+
+        <hr />
+
+
+
+    </main>
+
+    <hr />
+
+    <summary>
+        <p>
+            <em>
+                We know all that sports is very useful for the human
+                <br />it keeps you in good health and save your good
+                <br />shape but it's also require something you have
+                <br />to do in return and that thing is to eat healthy food
+            </em>
+        </p>
+    </summary>
+
+    <hr />
+    <pre>
+
+        </pre>
+    <h3><em><strong>Register NOW with exclusive OFFERS!</strong></em></h3>
+
+    <form action="" method="get">
+
+        <div>
+            <label for="user-input">Username</label>
+            <input id="user-input" type="text" name="Name" placeholder="username" required autofocus />
+        </div>
+
+        <div>
+            <label>Gender</label>
+            <input id="gnder-input" type="radio" name="Gender" value="male" />
+            <label for="gender-input">Male</label>
+            <input id="gnder-input" type="radio" name="Gender" value="female" />
+            <label for="gender-input">Female</label>
+        </div>
+
+        <div>
+            <label for="pass-input">New-Password</label>
+            <input id="pass-input" type="password" name="Password" placeholder="password" required />
+        </div>
+
+        <div>
+            <label for="email-input">E-mail</label>
+            <input id="email-input" type="email" name="Email" placeholder="Email" />
+        </div>
+
+        <div>
+            <label for="date-input">Date of Birth</label>
+            <input id="date-input" type="month" name="Date of Birth" />
+        </div>
+
+        <div>
+            <label for="age-input">Age</label>
+            <input id="age-input" type="number" name="Age" />
+        </div>
+
+        <div>
+            <label for="plan-input">Choose your plan:<label>
+                    <input list="plans" name="plan" id="plan-input">
+                    <datalist id="plans">
+                        <option value="normal plan">normal</option>
+                        <option value="Advanced plan">Advanced</option>
+                        <option value="VIP plan">VIP</option>
+                    </datalist>
+        </div>
+
+        <br />
+
+        <textarea placeholder="write about your self (optiona)"></textarea>
+
+        <hr />
+
+        <div>
+            <input type="submit" value="submit" />
+            <input type="reset" value="resert" />
+        </div>
+
+
+
+    </form>
+
+    <hr />
+    <pre>
+
+        </pre>
+    <footer>
+        <time>06:25PM GMT April 28, 2023.</time><br />
+        <h7>All rights reserved due to Copyrights 2007-2014.</h7>
+    </footer>
+
+
+
+</body>
+
+</html>

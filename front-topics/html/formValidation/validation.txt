@@ -1,0 +1,38 @@
+1. Required Attribute: Specifies that an input field must be filled out before submitting the form.
+2. Pattern Attribute: Allows you to specify a regular expression that the input's value must match.
+3. Type Attribute: Introduces various input types that come with built-in validation, such as email, URL, number, etc.
+4. Min and Max Attributes: Define acceptable value ranges for number, range, date, and other types of inputs.
+5. Validity States: HTML5 introduces new pseudo-classes to style form elements based on their validity state, like :valid, :invalid, :required, etc.
+6. Constraint Validation API: Provides a JavaScript API for accessing and manipulating the validity of form elements programmatically. It includes methods like checkValidity() and properties like validity.
+
+
+
+<!-- Required attribute -->
+<input type="text" name="username" required>
+
+<!-- Pattern attribute -->
+<input type="text" name="password" pattern=".{8,}" title="Password must be at least 8 characters">
+
+<!-- Type attribute -->
+<input type="email" name="email" required>
+<input type="url" name="website">
+<input type="number" name="quantity" min="1" max="10">
+
+<!-- Min and Max attributes -->
+<input type="number" name="age" min="18" max="100">
+<input type="date" name="birthdate" max="2004-12-31">
+
+
+/* Validity states */
+input:invalid {
+  border-color: red;
+}
+
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+  if (!form.checkValidity()) {
+    event.preventDefault();
+    // Handle invalid form submission
+  }
+});

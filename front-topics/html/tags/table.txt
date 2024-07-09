@@ -1,0 +1,6 @@
+Table Tags: Tags used to create and structure tables of data.
+
+1. <table>      : Defines a table.
+2. <tr>         : Defines a row in a table.
+3. <th>         : Defines a header cell in a table.
+4. <td>         : Defines a cell in a table.

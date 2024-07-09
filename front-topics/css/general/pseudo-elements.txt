@@ -1,0 +1,7 @@
+1. ::before             :Inserts content before the content of an element.
+2. ::after              :Inserts content after the content of an element.
+3. ::first-line         :Styles the first line of text within an element.
+4. ::first-letter       :Styles the first letter of text within an element.
+5. ::selection          :Styles the portion of an element that is selected by the user.
+6. ::placeholder        :Styles the placeholder text in an input field.
+7. ::marker             :Styles the list item marker of a list element.

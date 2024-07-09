@@ -1,0 +1,38 @@
+ARIA (Accessible Rich Internet Applications) is a set of attributes in web development that enhances accessibility for users with disabilities. 
+It provides additional information to assistive technologies, making web content more navigable and understandable.
+
+    1. aria-atomic                  : Indicates whether the element's children are included in the accessible tree.
+    2. aria-autocomplete            : Indicates whether user input completion suggestions are provided.
+    3. aria-busy                    : Indicates whether an element is currently busy or loading content.
+    4. aria-checked                 : Indicates the current "checked" state of checkboxes, radio buttons, etc.
+    5. aria-controls                : Identifies the elements that are controlled by the current element.
+    6. aria-describedby             : Identifies elements that describe the current element.
+    7. aria-disabled                : Indicates whether an element is disabled.
+    8. aria-dropeffect              : Indicates the possible drop effects of a draggable element.
+    9. aria-expanded                : Indicates whether a collapsible element is currently expanded or collapsed.
+    10. aria-flowto                 : Identifies where focus should be moved to next.
+    11. aria-grabbed                : Indicates whether an element is currently grabbed by the user.
+    12. aria-haspopup               : Indicates whether an element has a popup.
+    13. aria-hidden                 : Indicates whether an element is visible or hidden to accessibility tools.
+    14. aria-invalid                : Indicates whether the value of an element is valid.
+    15. aria-label                  : Provides a label for an element when a visible label is not present.
+    16. aria-labelledby             : Identifies elements that serve as the label for the current element.
+    17. aria-level                  : Indicates the hierarchical level of an element.
+    18. aria-live                   : Indicates the type of updates an element will receive.
+    19. aria-multiline              : Indicates whether a textbox accepts multiline input.
+    20. aria-multiselectable        : Indicates whether multiple options can be selected.
+    21. aria-orientation            : Indicates the orientation of a slider or scrollbar.
+    22. aria-owns                   : Identifies elements that are owned by the current element.
+    23. aria-placeholder            : Provides a hint to the expected value of an input field.
+    24. aria-posinset               : Indicates an element's position in a set of similar elements.
+    25. aria-pressed                : Indicates the current "pressed" state of toggle buttons.
+    26. aria-readonly               : Indicates whether an element is read-only.
+    27. aria-relevant               : Indicates the type of changes that are relevant and should be announced.
+    28. aria-required               : Indicates whether an element is required for form submission.
+    29. aria-selected               : Indicates whether an option is currently selected.
+    30. aria-setsize                : Indicates the size of the set of similar elements.
+    31. aria-sort                   : Indicates the sorting order of a table column.
+    32. aria-valuemax               : Indicates the maximum allowed value of a range widget.
+    33. aria-valuemin               : Indicates the minimum allowed value of a range widget.
+    34. aria-valuenow               : Indicates the current value of a range widget.
+    35. aria-valuetext              : Provides a textual representation of a range widget's value.

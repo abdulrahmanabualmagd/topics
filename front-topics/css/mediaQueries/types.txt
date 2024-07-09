@@ -1,0 +1,9 @@
+01. all          :Applies to all devices. This media type is commonly used when you want styles to apply to all types of devices, including screens, printers, speech synthesizers, etc.
+02. screen       :Applies to computer screens, tablets, smartphones, etc. This is the default media type and is used for styles that are intended for visual displays.
+03. print        :Applies to printed documents and documents viewed in print preview mode. This media type is used for styles that are intended for printing purposes, such as adjusting layout, colors, and fonts for better printing.
+04. speech       :Applies to screen readers and other speech synthesizers. This media type is used for styles that are optimized for accessibility, ensuring that content is properly presented when read aloud.
+05. tv           :Applies to television-type devices. This media type is used for styles that are intended for devices with larger screens, such as TVs or monitors.
+06. projection   :Applies to projectors. This media type is used for styles that are intended for presentation on projection screens.
+07. handheld     :Applies to handheld devices like smartphones and some tablets. This media type is used for styles that are optimized for smaller screens and touch-based interactions.
+08. braille      :Applies to braille tactile feedback devices. This media type is used for styles that are intended for devices that render content in braille.
+09. embossed     :Applies to paged braille printers. This media type is used for styles that are intended for embossed printing, such as braille printers.

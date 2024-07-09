@@ -1,0 +1,1 @@
+Design a prototype for the website just drawing the layouts and a breif content without details 

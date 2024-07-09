@@ -1,0 +1,8 @@
+wireframe | design a prototype
+layouts and Ideas of each row
+how to order and place each idea in a separate section (row)
+easy distinct between each section through (background color, background images, spacing, dividers) 
+how to choose colors for each section as a background color image
+same related topics may put together in one row like (client | freelancer)
+
+Three approaches [ root use font-size vw, fixed and controlled by the media query, fixed  ]

@@ -1,0 +1,10 @@
+Multimedia Tags: Tags used to embed multimedia content, such as audio and video, into an HTML document.
+
+1. <audio>          : Embeds audio content in a web page, supports various audio formats.
+2. <video>          : Embeds video content in a web page, supports various video formats.
+3. <source>         : Specifies multiple sources for media files within <audio> and <video> elements.
+4. <canvas>         : Allows dynamic, scriptable rendering of 2D shapes and bitmap images.
+
+
+
+

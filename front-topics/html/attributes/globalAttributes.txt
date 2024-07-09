@@ -1,0 +1,12 @@
+1. id                   : Specifies a unique identifier for an HTML element.
+2. class                : Specifies one or more class names for an HTML element, used for styling with CSS.
+3. style                : Specifies inline CSS styles for an HTML element.
+4. title                : Specifies extra information about an element, often displayed as a tooltip.
+5. lang                 : Specifies the language of the content within an element.
+6. dir                  : Specifies the direction of the text within an element (ltr for left:to:right, rtl for right:to:left).
+7. tabindex             : Specifies the tab order of an element for keyboard navigation.
+8. accesskey            : Specifies a shortcut key to activate or focus an element.
+9. contenteditable      : Specifies whether the content of an element is editable by the user.
+10. hidden              : Specifies that an element is not yet, or is no longer, relevant.
+11. draggable           : Specifies whether an element is draggable.
+12. spellcheck          : Specifies whether the element should have its spelling and grammar checked.

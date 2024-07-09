@@ -1,0 +1,11 @@
+Semantic Structural Tags: Tags introduced in HTML5 to provide semantic meaning to different sections of a web page, such as headers, footers, navigation menus, articles, and sections.
+Accessibility and SEO
+    1. <header>      : Defines a header for a document or section.
+    2. <footer>      : Defines a footer for a document or section.
+    3. <nav>         : Defines a navigation menu.
+    4. <article>     : Defines an article.
+    5. <section>     : Defines a section within a document.
+    6. <aside>       : Defines content aside from the content it is placed in.
+    7. <main>        : Defines the main content of a document.
+    8. <figure>      : Specifies self-contained content like illustrations or diagrams.
+    9. <figcaption>  : Represents a caption or legend for a <figure> element.
