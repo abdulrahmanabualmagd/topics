@@ -1,0 +1,23 @@
+let str = "Hello, world!";
+
+console.log("Index of 'world':", str.indexOf("world"));
+console.log("Last index of 'o':", str.lastIndexOf("o"));
+console.log("Character at index 7:", str.charAt(7));
+console.log("Unicode value at index 7:", str.charCodeAt(7));
+console.log("Concatenated string:", str.concat(" Goodbye!"));
+console.log("Includes 'world':", str.includes("world"));
+console.log("Matched characters:", str.match(/l+/g));
+console.log("Replaced string:", str.replace("world", "universe"));
+console.log("Sliced string:", str.slice(7));
+console.log("Split array:", str.split(", "));
+console.log("Substring:", str.substring(7));
+console.log("Lowercase:", str.toLowerCase());
+console.log("Uppercase:", str.toUpperCase());
+console.log("Trimmed string:", "   Hello, world!   ".trim());
+console.log("Starts with 'Hello':", str.startsWith("Hello"));
+console.log("Ends with 'world!':", str.endsWith("world!"));
+console.log("Padded start:", str.padStart(15, "-"));
+console.log("Padded end:", str.padEnd(15, "-"));
+console.log("Repeated string:", "abc".repeat(3));
+console.log("Trimmed start:", "   Hello, world!   ".trimStart());
+console.log("Trimmed end:", "   Hello, world!   ".trimEnd());
