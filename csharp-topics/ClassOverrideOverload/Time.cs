@@ -47,12 +47,12 @@ namespace ClassOverrideOverload
         #region Override Methods
         public override bool Equals(object? obj)
              => this.Equals(obj);
-
+        
         public override int GetHashCode()
-            => this.GetHashCode();
+        => this.GetHashCode();
 
         public override string ToString()
-            =>  $"Hours: {Hours}, Minutes: {Minutes}, Seconds: {Seconds}";
+            => $"Hours: {Hours}, Minutes: {Minutes}, Seconds: {Seconds}";
         #endregion
 
         #region Overload Methods
